@@ -81,7 +81,7 @@ class MyGdxGame : ApplicationAdapter() {
                 clustersDrawPanel.kCluster = generateNewCluster()
             }
         })
-        val clearButton = TextButton("new cluster", mySkin)
+        val clearButton = TextButton("clear cluster", mySkin)
         clearButton.addListener(object : ClickListener() {
             override fun clicked(event: InputEvent, x: Float, y: Float) {
                 println("generate new clear cluster")
